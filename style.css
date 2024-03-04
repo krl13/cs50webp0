@@ -45,3 +45,19 @@
     margin-left: 100px;
     margin-right: 10px;
 }
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}

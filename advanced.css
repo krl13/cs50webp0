@@ -1,0 +1,50 @@
+.img{
+    max-width: 70px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.head{
+    margin-left: 35px;
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+.head h2{
+    font-weight: normal;
+    color: #d93025;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head h3{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head input{
+    position: absolute;
+    left: 220px;
+    width: 350px;
+    height: 25px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.head input:focus{
+    outline: 1px solid rgb(81, 113, 255);
+}
+
+.head label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+}
+
+.head button{
+    color: white;
+    background-color: #4d90fe;
+    border: 0px;
+    height: 30px;
+    position: absolute;
+    right: 223px;
+}
