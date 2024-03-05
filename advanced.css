@@ -1,12 +1,13 @@
 .img{
     max-width: 70px;
-    margin-top: 12px;
+    margin-top: 5px;
     margin-left: 10px;
+    float: left;
 }
 
 .head{
     margin-left: 35px;
-    margin-top: 25px;
+    margin-top: 50px;
     display: flex;
     
 }
@@ -47,4 +48,24 @@
     height: 30px;
     position: absolute;
     right: 223px;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.link a{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration-line: underline;
 }
